@@ -1,0 +1,69 @@
+{
+  "image_id": "base_clean_300dpi",
+  "run_id": "base_clean_300dpi_rep01",
+  "geometry_check": {
+    "same_size_as_study_image": true,
+    "pixels_differing": 0,
+    "max_rgb_difference": 0
+  },
+  "outputs": {
+    "full_plot_baseline": {
+      "px": [
+        3188,
+        2417
+      ],
+      "mm": [
+        269.9,
+        204.6
+      ],
+      "dpi": [
+        300,
+        300
+      ]
+    },
+    "full_plot_baseline_zoombox": {
+      "px": [
+        3188,
+        2417
+      ],
+      "mm": [
+        269.9,
+        204.6
+      ],
+      "dpi": [
+        300,
+        300
+      ]
+    }
+  },
+  "poster_scale_vs_study_figure": 1.8168,
+  "comparison_zoom_factor": 6,
+  "digitised_points": {
+    "Control": 955,
+    "Treatment": 1010
+  },
+  "censor_marks": {
+    "control": {
+      "count": 29,
+      "first_month": 30.01
+    },
+    "treatment": {
+      "count": 42,
+      "first_month": 30.07
+    }
+  },
+  "censor_mark_scale": {
+    "height": 1.8,
+    "stroke": 1.3
+  },
+  "zoom_box": {
+    "months": [
+      0.0,
+      4.0
+    ],
+    "survival": [
+      0.8544,
+      1.02
+    ]
+  }
+}

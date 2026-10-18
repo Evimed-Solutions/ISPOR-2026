@@ -1,0 +1,284 @@
+seed: 260619
+
+trial:
+  n_per_arm: 200
+  weibull_shape: 1.0
+  median_months:
+    control: 12.0
+    treatment: 18.0
+  admin_followup_months: 36
+  dropout_min_months: 30
+  dropout_max_months: 36
+  risk_table_times_months: [0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36]
+  sparse_risk_table_times_months: [0, 6, 12, 18, 24, 30, 36]
+
+extraction:
+  grid_step_months: 0.5
+
+kmgpt:
+  replicates_per_image: 3
+  min_curve_points_per_arm: 150
+
+render:
+  figure_width_inches: 6.4
+  figure_height_inches: 4.8
+  line_width_points: 2.4
+  censor_tick_size_points: 5.0
+  fixed_risk_table: absent
+  fixed_censor_ticks: true
+  fixed_annotations: none
+  axis_rect:
+    with_risk_table: [0.14, 0.31, 0.80, 0.58]
+    absent: [0.14, 0.16, 0.80, 0.73]
+  x_ticks: [0, 6, 12, 18, 24, 30, 36]
+  y_ticks: [0, 0.2, 0.4, 0.6, 0.8, 1.0]
+  risk_table_font_size:
+    clear: 7.5
+    sparse: 5.5
+  colour_palettes:
+    easy:
+      control: "#1f77b4"
+      treatment: "#2ca02c"
+    default:
+      control: "#1f77b4"
+      treatment: "#b91c1c"
+    hard:
+      control: "#fef002"
+      treatment: "#fdf577"
+
+degradation:
+  recompression_quality: 55
+
+defaults:
+  dpi: 300
+  jpeg_quality:
+  recompression_generations: 0
+  blur_sigma_px: 0.0
+  chroma: none
+  colour_palette: default
+  grayscale: false
+  paper_noise_sd: 0.0
+  skew_degrees: 0.0
+
+images:
+  - image_id: base_clean_300dpi
+    analysis_block: base_reference
+    factor: base
+    factor_level: clean_300dpi
+    factor_type: reference
+    threshold_eligible: false
+    scenario: clean_vector_pdf
+
+  - image_id: dpi_200
+    analysis_block: factor_sweep
+    factor: dpi
+    factor_level: 200
+    factor_type: continuous
+    threshold_eligible: true
+    scenario:
+    dpi: 200
+  - image_id: dpi_150
+    analysis_block: factor_sweep
+    factor: dpi
+    factor_level: 150
+    factor_type: continuous
+    threshold_eligible: true
+    scenario:
+    dpi: 150
+  - image_id: dpi_120
+    analysis_block: factor_sweep
+    factor: dpi
+    factor_level: 120
+    factor_type: continuous
+    threshold_eligible: true
+    scenario:
+    dpi: 120
+  - image_id: dpi_90
+    analysis_block: factor_sweep
+    factor: dpi
+    factor_level: 90
+    factor_type: continuous
+    threshold_eligible: true
+    scenario:
+    dpi: 90
+  - image_id: dpi_75
+    analysis_block: factor_sweep
+    factor: dpi
+    factor_level: 75
+    factor_type: continuous
+    threshold_eligible: true
+    scenario:
+    dpi: 75
+
+  - image_id: jpeg_95
+    analysis_block: factor_sweep
+    factor: jpeg_quality
+    factor_level: 95
+    factor_type: continuous
+    threshold_eligible: true
+    scenario:
+    jpeg_quality: 95
+  - image_id: jpeg_85
+    analysis_block: factor_sweep
+    factor: jpeg_quality
+    factor_level: 85
+    factor_type: continuous
+    threshold_eligible: true
+    scenario:
+    jpeg_quality: 85
+  - image_id: jpeg_75
+    analysis_block: factor_sweep
+    factor: jpeg_quality
+    factor_level: 75
+    factor_type: continuous
+    threshold_eligible: true
+    scenario:
+    jpeg_quality: 75
+  - image_id: jpeg_65
+    analysis_block: factor_sweep
+    factor: jpeg_quality
+    factor_level: 65
+    factor_type: continuous
+    threshold_eligible: true
+    scenario:
+    jpeg_quality: 65
+  - image_id: jpeg_55
+    analysis_block: factor_sweep
+    factor: jpeg_quality
+    factor_level: 55
+    factor_type: continuous
+    threshold_eligible: true
+    scenario:
+    jpeg_quality: 55
+
+  - image_id: blur_0_3
+    analysis_block: factor_sweep
+    factor: blur
+    factor_level: 0.3
+    factor_type: continuous
+    threshold_eligible: true
+    scenario:
+    blur_sigma_px: 0.3
+  - image_id: blur_0_7
+    analysis_block: factor_sweep
+    factor: blur
+    factor_level: 0.7
+    factor_type: continuous
+    threshold_eligible: true
+    scenario:
+    blur_sigma_px: 0.7
+  - image_id: blur_1_1
+    analysis_block: factor_sweep
+    factor: blur
+    factor_level: 1.1
+    factor_type: continuous
+    threshold_eligible: true
+    scenario:
+    blur_sigma_px: 1.1
+  - image_id: blur_1_5
+    analysis_block: factor_sweep
+    factor: blur
+    factor_level: 1.5
+    factor_type: continuous
+    threshold_eligible: true
+    scenario:
+    blur_sigma_px: 1.5
+
+  - image_id: recompression_1
+    analysis_block: factor_sweep
+    factor: recompression
+    factor_level: 1
+    factor_type: continuous
+    threshold_eligible: true
+    scenario:
+    recompression_generations: 1
+  - image_id: recompression_3
+    analysis_block: factor_sweep
+    factor: recompression
+    factor_level: 3
+    factor_type: continuous
+    threshold_eligible: true
+    scenario:
+    recompression_generations: 3
+  - image_id: recompression_5
+    analysis_block: factor_sweep
+    factor: recompression
+    factor_level: 5
+    factor_type: continuous
+    threshold_eligible: true
+    scenario:
+    recompression_generations: 5
+
+  - image_id: chroma_420
+    analysis_block: factor_sweep
+    factor: chroma
+    factor_level: "420"
+    factor_type: categorical
+    threshold_eligible: false
+    scenario:
+    chroma: "420"
+
+  - image_id: colour_easy
+    analysis_block: factor_sweep
+    factor: colour_separability
+    factor_level: easy
+    factor_type: categorical
+    threshold_eligible: false
+    scenario:
+    colour_palette: easy
+  - image_id: colour_hard
+    analysis_block: factor_sweep
+    factor: colour_separability
+    factor_level: hard
+    factor_type: categorical
+    threshold_eligible: false
+    scenario:
+    colour_palette: hard
+  - image_id: colour_grayscale
+    analysis_block: factor_sweep
+    factor: colour_separability
+    factor_level: grayscale
+    factor_type: categorical
+    threshold_eligible: false
+    scenario:
+    grayscale: true
+
+  - image_id: workflow_publisher_raster_export
+    analysis_block: workflow_scenario
+    factor: workflow
+    factor_level: publisher_raster_export
+    factor_type: scenario
+    threshold_eligible: false
+    scenario: publisher_raster_export
+    dpi: 200
+    jpeg_quality: 95
+    blur_sigma_px: 0.3
+  - image_id: workflow_screenshot_slide
+    analysis_block: workflow_scenario
+    factor: workflow
+    factor_level: screenshot_slide
+    factor_type: scenario
+    threshold_eligible: false
+    scenario: screenshot_slide
+    dpi: 120
+    jpeg_quality: 75
+    blur_sigma_px: 0.7
+    chroma: "420"
+  - image_id: workflow_scanned_legacy
+    analysis_block: workflow_scenario
+    factor: workflow
+    factor_level: scanned_legacy
+    factor_type: scenario
+    threshold_eligible: false
+    scenario: scanned_legacy
+    dpi: 90
+    jpeg_quality: 55
+    recompression_generations: 5
+    blur_sigma_px: 1.5
+    chroma: "420"
+    grayscale: true
+    paper_noise_sd: 8.0
+    skew_degrees: 0.7
+
+scoring:
+  rmst_tau_months: 36

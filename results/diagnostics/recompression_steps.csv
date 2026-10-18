@@ -1,0 +1,4 @@
+from,to,mean_change
+recompression_1,recompression_3,0.13772087191358023
+recompression_3,recompression_5,0.04580958236882716
+jpeg_55,recompression_1,0.0

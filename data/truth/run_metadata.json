@@ -1,0 +1,12 @@
+{
+  "seed": 260619,
+  "protocol": "km_gpt_synthetic_image_quality_v3",
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.4.3",
+  "pandas": "3.0.1",
+  "scipy": "1.17.1",
+  "matplotlib": "3.10.8",
+  "pillow": "12.1.1",
+  "pdftoppm_available": true
+}

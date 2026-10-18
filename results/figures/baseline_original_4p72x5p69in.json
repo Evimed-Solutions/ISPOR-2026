@@ -1,0 +1,27 @@
+{
+  "inches": [
+    4.72,
+    5.69
+  ],
+  "png_pixels": [
+    1416,
+    1707
+  ],
+  "dpi": 300,
+  "legend": "Control and Treatment, upper right inside axes",
+  "x_ticks": [
+    0,
+    6,
+    12,
+    18,
+    24,
+    30,
+    36
+  ],
+  "tick_and_legend_font_pt": 19,
+  "axis_label_font_pt": 21,
+  "digitised_overlay": false,
+  "bottom_key": false,
+  "zoom_box": false,
+  "original_censor_marks": true
+}

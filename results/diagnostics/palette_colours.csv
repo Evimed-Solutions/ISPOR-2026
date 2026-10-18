@@ -1,0 +1,5 @@
+palette,control,treatment,control_hue,control_saturation,control_lightness,control_luma,control_delta_e_vs_white,treatment_hue,treatment_saturation,treatment_lightness,treatment_luma,treatment_delta_e_vs_white,delta_e_between_arms
+default,#1f77b4,#b91c1c,205.0,0.706,0.414,100,65.29044273601335,0.0,0.737,0.418,75,94.31967677450723,103.01306863236654
+easy,#1f77b4,#2ca02c,205.0,0.706,0.414,100,65.29044273601335,120.0,0.569,0.4,112,84.08906307615061,102.16863317595711
+hard,#fef002,#fdf577,57.0,0.992,0.502,217,92.84495735659615,56.0,0.971,0.729,233,62.33337390926176,30.790320651328816
+greyscale (default converted),#646464,#4b4b4b,0.0,0.0,0.392,100,57.625396802073226,0.0,0.0,0.294,75,68.11125427291931,10.485857470846078

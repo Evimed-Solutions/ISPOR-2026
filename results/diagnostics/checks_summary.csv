@@ -1,0 +1,5 @@
+import_status,runs,conditions
+accepted,39,base_clean_300dpi; dpi_200; dpi_150; dpi_120; dpi_75; blur_0_3; blur_0_7; blur_1_1; blur_1_5; chroma_420; colour_easy; workflow_publisher_raster_export; workflow_screenshot_slide
+single_label_two_curves,24,jpeg_85; jpeg_75; jpeg_65; jpeg_55; recompression_1; recompression_3; recompression_5; colour_hard
+curve_point_count_below_min,6,dpi_90; jpeg_95
+unlabeled_two_curves,6,colour_grayscale; workflow_scanned_legacy

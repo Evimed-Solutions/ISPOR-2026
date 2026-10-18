@@ -1,0 +1,5 @@
+image_id,clean_reference,zoom_scale,scored_runs,te_error,te_error_pct,red_pixels_in_blue_group_pct,blue_pixels_in_red_group_pct,callouts,row_top_mm,row_height_mm
+base_clean_300dpi,base_clean_300dpi,6,3/3,0.0017472872049761,0.0599147330453676,0.07,0.0,Control trace | Treatment trace,5.0,86.87
+jpeg_95,base_clean_300dpi,6,0/3,,,62.17,0.0,Traces run flat to the legend,97.87,86.87
+blur_1_5,base_clean_300dpi,6,3/3,0.4506778090496368,15.453807789458107,0.94,0.0,Treatment trace sits high,190.75,86.87
+workflow_screenshot_slide,dpi_120,15,3/3,0.2740976471038543,9.398848287689166,35.88,0.0,"Control trace rides the red curve, then drops",283.63,87.63

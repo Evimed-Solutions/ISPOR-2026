@@ -1,0 +1,163 @@
+image_id,pixel_type,pixels,share_in_cluster1_pct,cluster1,share_in_cluster2_pct,cluster2
+base_clean_300dpi,Control,23163,0.0,hue 0,100.0,hue 205
+base_clean_300dpi,Treatment,23264,99.9226272352132,hue 0,0.07737276478679504,hue 205
+base_clean_300dpi,Legend swatch C,930,0.0,hue 0,100.0,hue 205
+base_clean_300dpi,Legend swatch T,930,100.0,hue 0,0.0,hue 205
+base_clean_300dpi,Legend text,3473,100.0,hue 0,0.0,hue 205
+base_clean_300dpi,Blend,8,0.0,hue 0,100.0,hue 205
+dpi_200,Control,10345,0.0,hue 0,100.0,hue 205
+dpi_200,Treatment,10339,99.89360673179225,hue 0,0.10639326820775703,hue 205
+dpi_200,Legend swatch C,372,0.0,hue 0,100.0,hue 205
+dpi_200,Legend swatch T,434,100.0,hue 0,0.0,hue 205
+dpi_200,Legend text,1631,100.0,hue 0,0.0,hue 205
+dpi_200,Dark text/ticks,1,0.0,hue 0,100.0,hue 205
+dpi_200,Blend,4,0.0,hue 0,100.0,hue 205
+dpi_150,Control,5793,0.0,hue 0,100.0,hue 205
+dpi_150,Treatment,5816,99.8624484181568,hue 0,0.1375515818431912,hue 205
+dpi_150,Legend swatch C,235,0.0,hue 0,100.0,hue 205
+dpi_150,Legend swatch T,235,100.0,hue 0,0.0,hue 205
+dpi_150,Legend text,981,100.0,hue 0,0.0,hue 205
+dpi_150,Blend,2,0.0,hue 0,100.0,hue 205
+dpi_120,Control,3715,0.0,hue 0,100.0,hue 205
+dpi_120,Treatment,3727,99.83901261067884,hue 0,0.16098738932116985,hue 205
+dpi_120,Legend swatch C,148,0.0,hue 0,100.0,hue 205
+dpi_120,Legend swatch T,148,100.0,hue 0,0.0,hue 205
+dpi_120,Legend text,604,100.0,hue 0,0.0,hue 205
+dpi_120,Blend,2,0.0,hue 0,100.0,hue 205
+dpi_90,Control,1993,0.0,hue 0,100.0,hue 205
+dpi_90,Treatment,1995,99.59899749373433,hue 0,0.40100250626566414,hue 205
+dpi_90,Legend swatch C,84,0.0,hue 0,100.0,hue 205
+dpi_90,Legend swatch T,84,100.0,hue 0,0.0,hue 205
+dpi_90,Legend text,395,100.0,hue 0,0.0,hue 205
+dpi_90,Blend,3,0.0,hue 0,100.0,hue 205
+dpi_75,Control,1401,0.0,hue 0,100.0,hue 205
+dpi_75,Treatment,1405,99.7153024911032,hue 0,0.2846975088967972,hue 205
+dpi_75,Legend swatch C,48,0.0,hue 0,100.0,hue 205
+dpi_75,Legend swatch T,72,100.0,hue 0,0.0,hue 205
+dpi_75,Legend text,274,100.0,hue 0,0.0,hue 205
+dpi_75,Dark text/ticks,1,0.0,hue 0,100.0,hue 205
+dpi_75,Blend,2,0.0,hue 0,100.0,hue 205
+blur_0_3,Control,23163,0.0,hue 0,100.0,hue 205
+blur_0_3,Treatment,23265,99.7678916827853,hue 0,0.23210831721470018,hue 205
+blur_0_3,Legend swatch C,930,0.0,hue 0,100.0,hue 205
+blur_0_3,Legend swatch T,930,100.0,hue 0,0.0,hue 205
+blur_0_3,Legend text,3505,100.0,hue 0,0.0,hue 205
+blur_0_3,Blend,8,0.0,hue 0,100.0,hue 205
+blur_0_7,Control,23234,0.0,hue 0,100.0,hue 205
+blur_0_7,Treatment,23282,99.51035134438622,hue 0,0.4896486556137789,hue 205
+blur_0_7,Legend swatch C,930,0.0,hue 0,100.0,hue 205
+blur_0_7,Legend swatch T,930,100.0,hue 0,0.0,hue 205
+blur_0_7,Legend text,3567,100.0,hue 0,0.0,hue 205
+blur_0_7,New (white in clean),85,100.0,hue 0,0.0,hue 205
+blur_0_7,Blend,10,10.0,hue 0,90.0,hue 205
+blur_1_1,Control,23146,0.0,hue 0,100.0,hue 205
+blur_1_1,Treatment,23170,99.28355632283125,hue 0,0.7164436771687527,hue 205
+blur_1_1,Legend swatch C,926,0.0,hue 0,100.0,hue 205
+blur_1_1,Legend swatch T,926,100.0,hue 0,0.0,hue 205
+blur_1_1,Legend text,3564,100.0,hue 0,0.0,hue 205
+blur_1_1,New (white in clean),903,92.0265780730897,hue 0,7.973421926910299,hue 205
+blur_1_1,Blend,33,42.42424242424242,hue 0,57.57575757575758,hue 205
+blur_1_5,Control,22989,0.0,hue 0,100.0,hue 205
+blur_1_5,Treatment,23008,99.02642559109874,hue 0,0.9735744089012517,hue 205
+blur_1_5,Legend swatch C,926,0.0,hue 0,100.0,hue 205
+blur_1_5,Legend swatch T,926,100.0,hue 0,0.0,hue 205
+blur_1_5,Legend text,3542,100.0,hue 0,0.0,hue 205
+blur_1_5,New (white in clean),1454,86.58872077028886,hue 0,13.411279229711141,hue 205
+blur_1_5,Blend,52,44.23076923076923,hue 0,55.76923076923077,hue 205
+jpeg_95,Control,23188,100.0,hue 205,0.0,hue 1
+jpeg_95,Treatment,23319,63.32175479222951,hue 205,36.67824520777049,hue 1
+jpeg_95,Legend swatch C,930,100.0,hue 205,0.0,hue 1
+jpeg_95,Legend swatch T,930,33.225806451612904,hue 205,66.7741935483871,hue 1
+jpeg_95,Legend text,3475,0.0,hue 205,100.0,hue 1
+jpeg_95,Blend,8,100.0,hue 205,0.0,hue 1
+jpeg_85,Control,23224,100.0,hue 205,0.0,hue 1
+jpeg_85,Treatment,23330,64.5435062151736,hue 205,35.45649378482641,hue 1
+jpeg_85,Legend swatch C,930,100.0,hue 205,0.0,hue 1
+jpeg_85,Legend swatch T,930,50.215053763440864,hue 205,49.784946236559136,hue 1
+jpeg_85,Legend text,3481,0.0,hue 205,100.0,hue 1
+jpeg_85,Blend,8,100.0,hue 205,0.0,hue 1
+jpeg_75,Control,23231,100.0,hue 205,0.0,hue 1
+jpeg_75,Treatment,23350,65.36188436830835,hue 205,34.63811563169165,hue 1
+jpeg_75,Legend swatch C,930,100.0,hue 205,0.0,hue 1
+jpeg_75,Legend swatch T,930,59.89247311827957,hue 205,40.10752688172043,hue 1
+jpeg_75,Legend text,3475,0.0,hue 205,100.0,hue 1
+jpeg_75,Blend,8,87.5,hue 205,12.5,hue 1
+jpeg_65,Control,23243,99.9956976293938,hue 205,0.004302370606204018,hue 1
+jpeg_65,Treatment,23352,65.21925316889346,hue 205,34.78074683110654,hue 1
+jpeg_65,Legend swatch C,930,100.0,hue 205,0.0,hue 1
+jpeg_65,Legend swatch T,930,43.01075268817204,hue 205,56.98924731182796,hue 1
+jpeg_65,Legend text,3485,0.0,hue 205,100.0,hue 1
+jpeg_65,New (white in clean),2,0.0,hue 205,100.0,hue 1
+jpeg_65,Blend,8,100.0,hue 205,0.0,hue 1
+jpeg_55,Control,23230,100.0,hue 205,0.0,hue 1
+jpeg_55,Treatment,23345,63.81666309702292,hue 205,36.18333690297708,hue 1
+jpeg_55,Legend swatch C,930,100.0,hue 205,0.0,hue 1
+jpeg_55,Legend swatch T,930,50.96774193548387,hue 205,49.03225806451613,hue 1
+jpeg_55,Legend text,3489,0.0,hue 205,100.0,hue 1
+jpeg_55,New (white in clean),7,0.0,hue 205,100.0,hue 1
+jpeg_55,Blend,10,90.0,hue 205,10.0,hue 1
+recompression_1,Control,23230,100.0,hue 205,0.0,hue 1
+recompression_1,Treatment,23345,63.81666309702292,hue 205,36.18333690297708,hue 1
+recompression_1,Legend swatch C,930,100.0,hue 205,0.0,hue 1
+recompression_1,Legend swatch T,930,50.96774193548387,hue 205,49.03225806451613,hue 1
+recompression_1,Legend text,3489,0.0,hue 205,100.0,hue 1
+recompression_1,New (white in clean),7,0.0,hue 205,100.0,hue 1
+recompression_1,Blend,10,90.0,hue 205,10.0,hue 1
+recompression_3,Control,23277,100.0,hue 205,0.0,hue 1
+recompression_3,Treatment,23404,62.46795419586395,hue 205,37.53204580413605,hue 1
+recompression_3,Legend swatch C,930,100.0,hue 205,0.0,hue 1
+recompression_3,Legend swatch T,930,51.075268817204304,hue 205,48.924731182795696,hue 1
+recompression_3,Legend text,3487,0.0,hue 205,100.0,hue 1
+recompression_3,New (white in clean),16,12.5,hue 205,87.5,hue 1
+recompression_3,Blend,14,92.85714285714286,hue 205,7.142857142857143,hue 1
+recompression_5,Control,23297,100.0,hue 205,0.0,hue 1
+recompression_5,Treatment,23431,62.43011395160258,hue 205,37.56988604839742,hue 1
+recompression_5,Legend swatch C,930,100.0,hue 205,0.0,hue 1
+recompression_5,Legend swatch T,930,51.075268817204304,hue 205,48.924731182795696,hue 1
+recompression_5,Legend text,3486,0.0,hue 205,100.0,hue 1
+recompression_5,New (white in clean),24,25.0,hue 205,75.0,hue 1
+recompression_5,Blend,15,86.66666666666667,hue 205,13.333333333333334,hue 1
+chroma_420,Control,23204,0.0,hue 0,100.0,hue 204
+chroma_420,Treatment,23316,97.45239320638188,hue 0,2.547606793618116,hue 204
+chroma_420,Legend swatch C,930,0.0,hue 0,100.0,hue 204
+chroma_420,Legend swatch T,930,97.84946236559139,hue 0,2.150537634408602,hue 204
+chroma_420,Legend text,3473,100.0,hue 0,0.0,hue 204
+chroma_420,Blend,8,0.0,hue 0,100.0,hue 204
+colour_easy,Control,23163,0.0,hue 120,100.0,hue 205
+colour_easy,Treatment,23264,100.0,hue 120,0.0,hue 205
+colour_easy,Legend swatch C,930,0.0,hue 120,100.0,hue 205
+colour_easy,Legend swatch T,930,100.0,hue 120,0.0,hue 205
+colour_easy,Legend text,3473,100.0,hue 120,0.0,hue 205
+colour_easy,Blend,8,25.0,hue 120,75.0,hue 205
+colour_hard,Control,23078,100.0,hue 57,0.0,grey L0.00
+colour_hard,Treatment,12,100.0,hue 57,0.0,grey L0.00
+colour_hard,Legend swatch C,930,100.0,hue 57,0.0,grey L0.00
+colour_hard,Legend text,3473,0.0,hue 57,100.0,grey L0.00
+colour_hard,Blend,8,100.0,hue 57,0.0,grey L0.00
+colour_grayscale,Control,23321,100.0,grey L0.39,0.0,grey L0.29
+colour_grayscale,Treatment,23514,6.030449944713787,grey L0.39,93.9695500552862,grey L0.29
+colour_grayscale,Legend swatch C,930,100.0,grey L0.39,0.0,grey L0.29
+colour_grayscale,Legend swatch T,930,0.0,grey L0.39,100.0,grey L0.29
+colour_grayscale,Legend text,3473,19.550820616181976,grey L0.39,80.44917938381802,grey L0.29
+colour_grayscale,Blend,8,50.0,grey L0.39,50.0,grey L0.29
+workflow_publisher_raster_export,Control,10377,100.0,hue 205,0.0,hue 1
+workflow_publisher_raster_export,Treatment,10381,52.82728060880455,hue 205,47.17271939119545,hue 1
+workflow_publisher_raster_export,Legend swatch C,372,100.0,hue 205,0.0,hue 1
+workflow_publisher_raster_export,Legend swatch T,434,56.22119815668203,hue 205,43.77880184331797,hue 1
+workflow_publisher_raster_export,Legend text,1665,0.0,hue 205,100.0,hue 1
+workflow_publisher_raster_export,Dark text/ticks,1,100.0,hue 205,0.0,hue 1
+workflow_publisher_raster_export,Blend,4,100.0,hue 205,0.0,hue 1
+workflow_screenshot_slide,Control,3759,0.0,hue 1,100.0,hue 205
+workflow_screenshot_slide,Treatment,3743,63.02431204915843,hue 1,36.97568795084157,hue 205
+workflow_screenshot_slide,Legend swatch C,148,0.0,hue 1,100.0,hue 205
+workflow_screenshot_slide,Legend swatch T,148,91.21621621621621,hue 1,8.783783783783784,hue 205
+workflow_screenshot_slide,Legend text,653,100.0,hue 1,0.0,hue 205
+workflow_screenshot_slide,New (white in clean),61,86.88524590163935,hue 1,13.114754098360656,hue 205
+workflow_screenshot_slide,Blend,2,0.0,hue 1,100.0,hue 205
+workflow_scanned_legacy,Control,1326,55.7315233785822,grey L0.64,44.2684766214178,grey L0.52
+workflow_scanned_legacy,Treatment,1446,32.780082987551864,grey L0.64,67.21991701244814,grey L0.52
+workflow_scanned_legacy,Legend swatch C,23,100.0,grey L0.64,0.0,grey L0.52
+workflow_scanned_legacy,Legend swatch T,32,34.375,grey L0.64,65.625,grey L0.52
+workflow_scanned_legacy,Legend text,156,75.64102564102564,grey L0.64,24.358974358974358,grey L0.52
+workflow_scanned_legacy,New (white in clean),2169,57.76855693868142,grey L0.64,42.23144306131858,grey L0.52
+workflow_scanned_legacy,Blend,55,36.36363636363637,grey L0.64,63.63636363636363,grey L0.52
