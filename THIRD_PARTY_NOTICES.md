@@ -6,4 +6,4 @@ The colour diagnostics call the installed **SurvdigitizeR** package (MIT + file 
 
 Poppler is also an external dependency, obtained separately. Consult the notices and licence files included with its distribution and those of each Python dependency. Windows Arial fonts are supplied by the user's Windows installation and are not included here.
 
-No licence has been selected for the project-owned code or synthetic study data in this review copy. Dependency notices do not select a licence for this project.
+Project-owned code, synthetic study data and figures are licensed under the [MIT License](LICENSE). This project licence does not replace or modify the licences of external dependencies.

@@ -1,6 +1,6 @@
-# KM image quality: reproducible ISPOR study
+#  Impact of Image Quality on Automated Kaplan-Meier Curve Digitisation Using Synthetic Known-Truth Survival Curves
 
-This standalone copy reproduces the synthetic two-arm Kaplan–Meier image-quality study used for the current ISPOR poster. It contains the latest primary RMST results and the calculations behind the retained poster figures.
+This reporeproduces the synthetic two-arm Kaplan–Meier image-quality study used for the current ISPOR poster. It contains the latest primary RMST results and the calculations behind the retained poster figures.
 
 The study has **25 images and 75 observed extraction runs** (three per image). Of these, **39 runs are accepted and 36 rejected**. Failures are part of the dataset. All patient data are simulated. RMST is evaluated at 36 months, with arms matched to truth by curve shape; this can conceal a label swap, which is reported separately in `results/diagnostics/label_check.csv`.
 
@@ -69,6 +69,6 @@ Mean absolute arm error is the average of the two absolute RMST errors. Treatmen
 
 ## Sharing
 
-Only the contents of this folder belong in the study repository. `.gitignore` excludes reruns, environments, temporary files and working documents. `.gitattributes` preserves file bytes so checksum verification survives a Windows checkout. Tests under `tests/` check scientific reproduction and input completeness.
+Project-owned code, synthetic study data and figures are licensed under the [MIT License](LICENSE). This permits reuse, modification and redistribution, including commercial use, provided the copyright and licence notices are retained.
 
-No licence has been selected for project-owned code or data. Select it before public publication. External dependencies retain their own licences; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+External dependencies retain their own licences; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
