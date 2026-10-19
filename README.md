@@ -1,6 +1,6 @@
 #  Impact of Image Quality on Automated Kaplan-Meier Curve Digitisation Using Synthetic Known-Truth Survival Curves
 
-This reporeproduces the synthetic two-arm Kaplan–Meier image-quality study used for the current ISPOR poster. It contains the latest primary RMST results and the calculations behind the retained poster figures.
+This repo reproduces the synthetic two-arm Kaplan–Meier image-quality study used for the current ISPOR poster. It contains the latest primary RMST results and the calculations behind the retained poster figures.
 
 The study has **25 images and 75 observed extraction runs** (three per image). Of these, **39 runs are accepted and 36 rejected**. Failures are part of the dataset. All patient data are simulated. RMST is evaluated at 36 months, with arms matched to truth by curve shape; this can conceal a label swap, which is reported separately in `results/diagnostics/label_check.csv`.
 
